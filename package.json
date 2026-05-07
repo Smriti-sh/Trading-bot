@@ -1,6 +1,7 @@
 {
   "name": "trading-n8n-monorepo",
   "private": true,
+  "version": "1.0.0",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
