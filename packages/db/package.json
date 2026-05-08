@@ -1,11 +1,10 @@
 {
-  "name": "common",
-  "version": "1.0.0",
+  "name": "db",
   "module": "index.ts",
   "type": "module",
   "private": true,
-  "exports": {
-    "./types": "./index.ts"
+  "exports" : {
+    "./client" : "./index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
@@ -14,6 +13,7 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "zod": "^4.4.3"
+    "@types/mongoose": "^5.11.97",
+    "mongoose": "^9.6.1"
   }
 }
